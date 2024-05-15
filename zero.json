@@ -1,0 +1,11 @@
+{
+  "scaffold": {
+    "files": [
+      {
+        "type": "system",
+        "namespace": "scaffold",
+        "pattern": "**/*.js"
+      }
+    ]
+  }
+}

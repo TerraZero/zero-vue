@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "zero-scaffold": "github:TerraZero/zero-scaffold",
+    "zero-system": "github:TerraZero/zero-system"
+  }
+}
