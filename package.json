@@ -2,5 +2,15 @@
   "dependencies": {
     "zero-scaffold": "github:TerraZero/zero-scaffold",
     "zero-system": "github:TerraZero/zero-system"
-  }
+  },
+  "name": "zero-vue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "TerraZero",
+  "license": "ISC",
+  "description": ""
 }
