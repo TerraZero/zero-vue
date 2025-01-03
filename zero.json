@@ -1,10 +1,24 @@
 {
   "scaffold": {
+    "modules": [
+      "zero-system",
+      "zero-scaffold"
+    ],
     "files": [
       {
         "type": "system",
         "namespace": "scaffold",
         "pattern": "**/*.js"
+      },
+      {
+        "type": "prisma",
+        "namespace": "prisma",
+        "pattern": "*.prisma"
+      },
+      {
+        "type": "model",
+        "namespace": "model",
+        "pattern": "**/*.prisma"
       }
     ]
   }
