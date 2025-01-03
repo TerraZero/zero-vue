@@ -1,8 +1,7 @@
 {
   "scaffold": {
     "modules": [
-      "zero-system",
-      "zero-scaffold"
+      "zero-system"
     ],
     "files": [
       {
