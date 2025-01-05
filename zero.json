@@ -5,6 +5,11 @@
     ],
     "files": [
       {
+        "type": "nuxt-loader",
+        "namespace": "nuxt-loader",
+        "pattern": "*.loader.js"
+      },
+      {
         "type": "system",
         "namespace": "scaffold",
         "pattern": "**/*.js"
