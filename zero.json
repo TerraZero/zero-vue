@@ -23,6 +23,11 @@
         "type": "model",
         "namespace": "model",
         "pattern": "**/*.prisma"
+      },
+      {
+        "type": "zero-config",
+        "namespace": "zero-config",
+        "pattern": "*.zero.json"
       }
     ]
   }
