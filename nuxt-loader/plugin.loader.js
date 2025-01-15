@@ -8,6 +8,9 @@ export default async (ctx, inject) => {
 
   for (const plugin of plugins) {
     const extender = context('./' + plugin.id + '.js');
-    extender.default(ctx, inject);
+
+    if (typeof extender.startup === 'function') {
+      extender.startup(ctx);
+    }
   }
 }
