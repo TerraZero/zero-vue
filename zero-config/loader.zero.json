@@ -2,8 +2,7 @@
   "scaffold": {
     "paths": {
       "nuxt-loader": {
-        "path": "custom/loaders/${file}",
-        "mode": "replace"
+        "path": "custom/loaders/${file}"
       }
     }
   }
